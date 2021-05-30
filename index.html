@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width"/>
+  <link rel="icon" type="image/svg+xml" href="./img/logo.png" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+  <title>Nikhil Adiga</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer data-deferred="1"></script>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="navbar__logo">
+      <img class="navbar__logo-img" src="./img/logo.png" alt="Logo">
+    </div>
+
+    <ul class="navbar__links">
+      <li class="navbar__link navbar__link-active">
+        <a href="#home">Home</a>
+      </li>
+      <li class="navbar__link">
+        <a href="#about">About</a>
+      </li>
+      <li class="navbar__link">
+        <a href="#work">Work</a>
+      </li>
+      <li class="navbar__link">
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+
+  </nav>
+
+  <section id="home">
+    <div class="home__header">
+      <header>
+        <h1 class="home__header-heading">
+          Hi,
+        </h1>
+        <h1 class="home__header-heading heading-content">
+          I am
+          <span>Nikhil.</span>
+          <span>Nikhil.</span>
+        </h1>
+        <h1 class="home__header-heading typewriter">
+          <span>&lt;</span>
+          <span class="txt-type" data-wait="3000" data-words='["Developer", "Singer", "Designer"]'></span>
+          <span>/&gt;</span>
+        </h1>
+        <a href="#contact">
+          <button class="home__header__contact-btn">
+            Contact
+          </button>
+        </a>
+      </header>
+    </div>
+
+    <div class="home__hero">
+      <img src="./img/hero.png" alt="Hero">
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about__header">
+      <h1 class="about__header-heading">ABOUT ME</h1>
+    </div>
+    <div class="about__body">
+      <div class="about__image-wrapper">
+        <div class="about__image"></div>
+      </div>
+      <div class="about__cards">
+        <p class="about__card">
+          As a passionate fullstack developer, I like to work on projects that utilize my technical skills to the
+          fullest and also helps me keep updated on the modern trends and standards in the tech industry. I have
+          experience working in different programming languages such as Java,Javascript and C++.
+        <div class="about__card-badges">
+          <span class="about__card-badge">React.js</span>
+          <span class="about__card-badge">Node.js</span>
+          <span class="about__card-badge">Spring Boot</span>
+          <span class="about__card-badge">JavaFX</span>
+          <span class="about__card-badge">MySQL</span>
+          <span class="about__card-badge">MongoDB</span>
+          <span class="about__card-badge">Redux</span>
+        </div>
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="work">
+    <div id="particles-js"></div>
+    <div class="work__header">
+      <h1 class="work__header-heading">WORK</h1>
+    </div>
+
+    <div class="work__body">
+
+      <div class="work__card">
+        <h3 class="work__card-heading highlighted-text">
+          <a href="https://github.com/Nikhiladiga/LcFX" target="_blank">LCFX</a>
+        </h3>
+        <p class="work__card-description">
+          A desktop application that allows users to create unity launchers for apps.
+        </p>
+        <div class="work__card-badges">
+          <span class="work__card-badge">JavaFX</span>
+          <span class="work__card-badge">Maven</span>
+          <span class="work__card-badge">Debian</span>
+        </div>
+      </div>
+
+      <div class="work__card">
+        <h3 class="work__card-heading highlighted-text">
+          <a href="https://github.com/Nikhiladiga/webkitgtk-kiosk-app" target="_blank"> WebkitGTK Kiosk</a>
+        </h3>
+        <p class="work__card-description">
+          A desktop app written in C++ that uses webkit rendering engine to render web UIs in low powered devices like
+          raspberry pi.
+        </p>
+        <div class="work__card-badges">
+          <span class="work__card-badge">C++</span>
+          <span class="work__card-badge">webkitgtk</span>
+          <span class="work__card-badge">gtkmm</span>
+        </div>
+      </div>
+
+      <div class="work__card">
+        <h3 class="work__card-heading highlighted-text">
+          <a href="https://github.com/Nikhiladiga/term-backend" target="_blank">NTerm</a>
+        </h3>
+        <p class="work__card-description">
+          A web based terminal emulator written using React.js, Node.js, Xterm.js and websockets.
+        </p>
+        <div class="work__card-badges">
+          <span class="work__card-badge">React.js</span>
+          <span class="work__card-badge">node.js</span>
+          <span class="work__card-badge">socket.io</span>
+          <span class="work__card-badge">Xterm.js</span>
+        </div>
+      </div>
+
+      <div class="work__card">
+        <h3 class="work__card-heading highlighted-text">
+          <a href="https://github.com/Nikhiladiga/react-redux-auth_app" target="_blank">Auth service</a>
+        </h3>
+        <p class="work__card-description">
+          A complete authentication service written using React.js, Redux, node.js, MongoDB and JWT.
+        </p>
+        <div class="work__card-badges">
+          <span class="work__card-badge">React.js</span>
+          <span class="work__card-badge">node.js</span>
+          <span class="work__card-badge">MongoDB</span>
+          <span class="work__card-badge">Redux</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact__header">
+      <h1 class="contact__header-heading">CONTACT</h1>
+    </div>
+    <div class="contact__body">
+      <form action="POST" data-netlify="true" class="contact__form">
+        <input type="text" class="contact__form-input" name="name" id="name" placeholder="Name" required>
+        <input type="email" class="contact__form-input" name="email" placeholder="Email" required>
+        <textarea placeholder="Message" name="message" class="contact__form-textarea" id="message" cols="30" rows="10"
+          required></textarea>
+          <div class="captcha" data-netlify-recaptcha="true"></div>
+        <button type="submit" class="contact__form-btn">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p> &#169; Nikhil Adiga <span id="currentYear"></span></p>
+    <div class="footer__social">
+      <a href="https://github.com/Nikhiladiga" target="_blank"><img src="./img/github.png" alt="Github"></a>
+      <a href="https://www.linkedin.com/in/nikhil-adiga-493bb0183/" target="_blank"><img src="./img/linkedin.png"
+          alt="LinkedIn"></a>
+      <a href="https://www.instagram.com/dr_strange_07/?hl=en" target="_blank"><img src="./img/instagram.png"
+          alt="Instagram"></a>
+      <a href="https://www.youtube.com/channel/UCjR-diED0qdywXYBZ9RSLRQ" target="_blank"><img src="./img/youtube.png"
+          alt="Youtube"></a>
+    </div>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
