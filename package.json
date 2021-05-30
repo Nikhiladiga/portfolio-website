@@ -4,9 +4,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "https-preview": "serve dist"
   },
   "devDependencies": {
+    "https-localhost": "^4.6.5",
     "vite": "^2.3.4"
+  },
+  "dependencies": {
+    "vite-plugin-pwa": "^0.7.3"
   }
 }

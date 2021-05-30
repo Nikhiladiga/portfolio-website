@@ -5,7 +5,8 @@ module.exports = {
         rollupOptions:{
             input:{
                 main:resolve(__dirname,'index.html'),
-                entry: resolve(__dirname,'main.js'),
+                entry:resolve(__dirname,'main.js'),
+                entry:resolve(__dirname,'./public/serviceWorker.js')
             }
         }
     }
